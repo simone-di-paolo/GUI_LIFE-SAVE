@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_page_one_button"
+        android:icon="@drawable/ic_number_one"
+        android:title="@string/screen_one_bottom_nav"
+        />
+    <item
+        android:id="@+id/bottom_page_two_button"
+        android:icon="@drawable/ic_number_two"
+        android:title="@string/screen_two_bottom_nav"
+        />
+    <item
+        android:id="@+id/bottom_page_three_button"
+        android:icon="@drawable/ic_number_three"
+        android:title="@string/screen_three_bottom_nav"
+        />
+    <item
+        android:id="@+id/bottom_page_four_button"
+        android:icon="@drawable/ic_number_four"
+        android:title="@string/screen_four_bottom_nav"
+        />
+
+</menu>

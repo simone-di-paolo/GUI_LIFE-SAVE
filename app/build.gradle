@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "30.0.0"
+
+    defaultConfig {
+        applicationId "com.dev.simonedipaolo.gui_life_save"
+        minSdkVersion 18
+        targetSdkVersion 29
+        versionCode 1
+        versionName "0.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta7'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    // material component dependencies (es. dark mode)
+    implementation 'com.google.android.material:material:1.3.0-alpha01'
+
+
+    //   implementation 'org.jetbrains:annotations-java5:15.0' => mi da problemi nella compilazione
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    def nav_version = "2.3.0"
+    implementation "androidx.navigation:navigation-fragment:$nav_version"
+    implementation "androidx.navigation:navigation-ui:$nav_version"
+
+    implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
+
+    // preference version
+    def preference_version = "1.1.1"
+    implementation "androidx.preference:preference:$preference_version"
+
+    // è la libreria che contiene il widget del contachilometri
+    implementation 'com.cardiomood.android:android-widgets:0.1.1'
+
+}

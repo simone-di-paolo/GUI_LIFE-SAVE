@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <!--   <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+-->
+    <!-- palette personalizzata -->
+
+    <!--
+        Es. utilizzi:
+
+        - primario: topbar
+        - primario scuro: elementi dell'UI
+
+        - secondario: per accentuare elementi
+        - secondario dark: idem
+
+        - surface: per cards, elementi, menu
+        - background: ovviamente...
+        - error: idem come sopra...
+
+    -->
+
+   <color name="colorPrimary">#1976D2</color>
+   <color name="colorPrimaryDark">#004BA0</color>
+   <color name="colorPrimaryLight">#63a4ff</color>
+
+   <color name="colorSecondary">#f9a825</color>
+   <color name="colorSecondaryDark">#c17900</color>
+   <color name="colorSecondaryLight">#ffd95a</color>
+
+
+
+    <color name="backgroundLightGrey">#F5F5F5</color>
+    <color name="backgroundDarkGrey">#E0E0E0</color>
+    <color name="backgroundGreyBlue">#607D8B</color>
+
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#D32F2F</color>
+
+   <color name="white">#FFFFFF</color>
+
+</resources>

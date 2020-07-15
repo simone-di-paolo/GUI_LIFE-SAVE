@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">GUI_LIFE-SAVE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_open">Navigation Open</string>
+    <string name="navigation_close">Navigation Close</string>
+
+    <!-- ImageView content description -->
+
+    <string name="auto_imageView">Auto ImageView</string>
+    <string name="ruotaAnteriore_imageView">Ruota Anteriore ImageView</string>
+    <string name="ruotaPosteriore_imageView">Ruota Posteriore ImageView</string>
+    <string name="sole_imageView">Sole ImageView</string>
+    <string name="lifesave_logo_imageView">LIFE-SAVE LOGO</string>
+    <string name="life_logo_imageView">LIFE LOGO</string>
+    <string name="xxx_value">XXX</string>
+    <string name="km_h">0 Km/h</string>
+    <string name="xx_percentual">XX %</string>
+    <string name="xxx_w_textView">XXX W</string>
+    <string name="xx_w_textVIew">XX W</string>
+
+    <string name="screen1_button_string">Screen 1</string>
+    <string name="screen2_button_string">Screen 2</string>
+    <string name="screen3_button_string">Screen 3</string>
+    <string name="screen4_button_string">Screen 4</string>
+    <string name="wh_oggi">XXX Wh</string>
+    <string name="frenataRigenerativa_string">Frenata rigenerativa XXXXX Wh</string>
+    <string name="consumo_energia_string">Consumo di energia: XXX Wh</string>
+    <string name="xx_nm_string">XX Nm</string>
+    <string name="gui_string">GUI LIFE-SAVE</string>
+
+    <!-- PREFERENCES -->
+
+    <string name="feedback_summary">Report technical problems or suggest new features\n(Not yet implemented)</string>
+    <string name="keep_screen_on_summary">Keep the screen on while app is open (may cause a battery drain)</string>
+    <string name="feedback_title">Send feedback</string>
+    <string name="keep_screen_on_title">Keep the screen on</string>
+
+    <!-- BOTTOM NAVIGATION MENU -->
+    <string name="screen_one_bottom_nav">Page 1</string>
+    <string name="screen_two_bottom_nav">Page 2</string>
+    <string name="screen_three_bottom_nav">Page 3</string>
+    <string name="screen_four_bottom_nav">Page 4</string>
+
+    <!-- DARK MODE STRINGS -->
+    <string name="dark_mode_string">Enable Dark Mode</string>
+    <string name="dark_mode_summary">Dark Mode can significantly redude the power usage (it depends on the device screen technology)\nNote yet implemented</string>
+
+    <!-- UTILS STRINGS -->
+    <string name="temporary_string">Temporary String</string>
+
+    <!-- BLUETOOTH STRINGS -->
+    <string name="none_paired">None paired</string>
+    <string name="scanning">Scanning...</string>
+    <string name="select_device">Select device:</string>
+    <string name="none_found">None found</string>
+
+    <!-- LOADING DIALOG STRINGS -->
+    <string name="loading_string">Searching...</string>
+    <string name="wait_for_string">Wait for X seconds</string>
+
+
+</resources>

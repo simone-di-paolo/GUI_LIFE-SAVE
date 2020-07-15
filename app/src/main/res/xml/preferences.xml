@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:key="settings"
+        app:title="Settings">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="keepScreenOn"
+            app:title="@string/keep_screen_on_title"
+            app:summary="@string/keep_screen_on_summary"/>
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="darkModeSwitch"
+            app:title="@string/dark_mode_string"
+            app:summary="@string/dark_mode_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="bluetooth"
+        app:title="Bluetooth">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="bluetooth_on_off_switch"
+            app:title="Bluetooth ON/OFF "
+            app:summary="Turn Bluetooth ON or OFF"/>
+<!--
+        <Preference
+            app:key="bluetooth_page_preference"
+            app:title="Bluetooth page"
+            app:summary="Open Bluetooth page settings"/>
+-->
+        <Preference
+            app:key="bluetooth_search_new_devices"
+            app:title="Search devices"
+            app:summary="Search for new devices"
+            app:dependency="bluetooth_on_off_switch"/>
+
+        <Preference
+            app:key="bluetooth_paired_devices_list"
+            app:title="Paired devices"
+            app:summary="Show already paired devices"
+            app:dependency="bluetooth_on_off_switch"/>
+
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="discoverability_checkbox"
+            android:title="Discoverability"
+            app:summary="Make the device discoverable to other devices"
+            app:dependency="bluetooth_on_off_switch"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="contacts"
+        app:title="Contacts">
+        <Preference
+            app:key="feedback"
+            app:title="@string/feedback_title"
+            app:summary="@string/feedback_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="title"
+        app:title="About">
+        <Preference
+            app:key="version"
+            app:title="Build version"
+            app:summary="0.1 (Alpha)\n\nDeveloped by \nSimone Di Paolo"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
